@@ -1,0 +1,26 @@
+@import "./variable";
+
+.btnPrimary{
+    background-color: $color-theme;
+    color: $color-white;
+    &:active{
+        background-color: $color-press;
+    }
+}
+.btnDefault{
+    border:1px solid $color-theme;
+    background-color: $color-white;
+    color: $color-theme;
+    &:active{
+        background-color: $color-theme;
+        color: $color-white;
+    }
+}
+.btnDisabled{
+    background-color: $btn-disabled;
+    color: $color-subtitle;
+}
+
+a {
+    color: $color-theme;
+}
